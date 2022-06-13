@@ -1,0 +1,39 @@
+.project {
+    display: grid;
+    grid-template-areas:
+        'img img img img name name name'
+        'img img img img stack stack stack'
+        'img img img img description description description';
+    width: auto;
+    margin: auto;
+    padding: 40px;
+    justify-content: center;
+}
+
+img {
+    padding-top: 20px;
+    grid-area: img;
+    width: 640px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.projName {
+    grid-area: name;
+    color: #F5CB5C;
+    margin-top: none;
+    padding-left: 20px
+}
+
+.stack {
+    grid-area: stack;
+    color: #CFDBD5;
+    padding-left: 20px
+}
+
+.description {
+    grid-area: description;
+    color: #E8EDDF;
+    padding-left: 20px
+}
