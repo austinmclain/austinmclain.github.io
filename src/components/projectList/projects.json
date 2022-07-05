@@ -4,13 +4,15 @@
         "image": "todo.png",
         "name": "To-Do",
         "stack": "React, ASP.NET Core, SQLite",
-        "description": "To-Do is a full-stack web application that uses React, ASP.NET Core, Minimal API, and SQLite. View, add, change, and delete items from a to-do list. This project was inspired by the Microsoft To Do task management app."
+        "description": "To-Do is a full-stack web application that uses React, ASP.NET Core, Minimal API, and SQLite. Unit tests were written using Jest and the React Testing Library. View, add, change, and delete items from a to-do list. This project was inspired by the Microsoft To Do task management app.",
+        "link": "https://github.com/austinmclain/To-Do"
     },
     {
         "id": 2,
         "image": "morningbot.png",
         "name": "MorningBot",
         "stack": "Python",
-        "description": "MorningBot is a Discord bot written in Python that provides a daily informational report every morning. Additionally, weather and news can be accessed at any time and for any city/state/category using certain commands."
+        "description": "MorningBot is a Discord bot written in Python that provides a daily informational report every morning. Additionally, weather and news can be accessed at any time and for any city/state/category using certain commands.",
+        "link": "https://github.com/austinmclain/MorningBot"
     }
 ]

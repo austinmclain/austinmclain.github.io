@@ -1,39 +1,25 @@
-.project {
+#projectList {
     display: grid;
-    grid-template-areas:
-        'img img img img name name name'
-        'img img img img stack stack stack'
-        'img img img img description description description';
-    width: auto;
-    margin: auto;
-    padding: 40px;
     justify-content: center;
 }
 
-img {
-    padding-top: 20px;
-    grid-area: img;
-    width: 640px;
-    max-width: 100%;
-    height: auto;
-    display: flex;
+.projectCard {
+    width: 50vmax
 }
 
-.projName {
-    grid-area: name;
-    color: #F5CB5C;
-    margin-top: none;
-    padding-left: 20px
+.projectCard .btn-custom {
+    color: black;
+    background-color: transparent
 }
 
-.stack {
-    grid-area: stack;
-    color: #CFDBD5;
-    padding-left: 20px
+.projectCard .btn-custom:hover {
+    color: gray;
 }
 
-.description {
-    grid-area: description;
-    color: #E8EDDF;
-    padding-left: 20px
+.projectCard .btn-custom:focus {
+    color: gray;
+}
+
+.projectCard .btn-custom:active {
+    color: black;
 }
