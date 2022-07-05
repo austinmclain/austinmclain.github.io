@@ -1,39 +1,42 @@
 /* Color Palette: https://coolors.co/palette/cfdbd5-e8eddf-f5cb5c-242423-333533 */
 
-.header {
-    padding-left: 90px;
-    padding-right: 90px;
+#header {
     padding-top: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #333533;
 }
 
 h1 {
+    color: #E8EDDF;
     font-size: 40px;
-    color: #E8EDDF
 }
 
-h3 {
-    color: #CFDBD5
-}
-
-.name {
-    color: #F5CB5C
-}
-
-p {
-    font-weight: bolder;
-    color: #F5CB5C
-}
-
-a {
+#header .name {
     color: #F5CB5C;
-    text-decoration: none;
+    font-weight: bold;
 }
 
-a:hover {
-    background-color: #E8EDDF
+h4 {
+    color: #CFDBD5;
 }
 
-* {
+.btn-custom {
+    color: #F5CB5C;
+    border: none;
+}
+
+.btn-custom:hover {
+    color: #ffe08c;
+}
+
+.btn-custom:focus {
+    color: #f5cc5c9f;
+}
+
+.btn-custom:active {
+    color: #f5cc5c9f;
+}
+
+*:not(.container-md *) {
     background-color: #333533
 }
