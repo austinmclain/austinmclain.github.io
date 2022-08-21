@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "type": "personal",
         "image": "todo.png",
         "name": "To-Do",
         "stack": "React, ASP.NET Core, SQLite",
@@ -9,6 +10,7 @@
     },
     {
         "id": 2,
+        "type": "personal",
         "image": "morningbot.png",
         "name": "MorningBot",
         "stack": "Python",
