@@ -1,18 +1,38 @@
 [
     {
         "id": 1,
-        "image": "todo.png",
+        "type": "personal",
+        "image": "todo-images.png",
         "name": "To-Do",
-        "stack": "React, ASP.NET Core, SQLite",
-        "description": "To-Do is a full-stack web application that uses React, ASP.NET Core, Minimal API, and SQLite. Unit tests were written using Jest and the React Testing Library. View, add, change, and delete items from a to-do list. This project was inspired by the Microsoft To Do task management app.",
+        "stack": "React, C#, MySQL",
+        "description": " - To-Do is a full-stack web app that allows users to add, change, organize, and complete tasks on their to-do list\n - Used ASP.NET Core to create a web API for communication between MySQL server and React frontend\n - Implemented declarative routing for transitioning between the site’s two pages\n - Used Node.js for continuous integration\n - Wrote unit tests using Jest and the React Testing Library\n - This project was inspired by the Microsoft To Do task management app",
         "link": "https://github.com/austinmclain/To-Do"
     },
     {
         "id": 2,
+        "type": "personal",
         "image": "morningbot.png",
         "name": "MorningBot",
         "stack": "Python",
-        "description": "MorningBot is a Discord bot written in Python that provides a daily informational report every morning. Additionally, weather and news can be accessed at any time and for any city/state/category using certain commands.",
+        "description": " - MorningBot is a Discord bot written in Python that provides a daily informational report every morning\n - Message includes current date, weather, and news",
         "link": "https://github.com/austinmclain/MorningBot"
+    },
+    {
+        "id": 3,
+        "type": "course",
+        "image": "swift-images.png",
+        "name": "Nobel Prizes",
+        "stack": "Swift, SwiftUI",
+        "description": " - Nobel Prizes is an iOS application that allows users to view a list of Nobel Prizes and navigate to a detailed view of each\n - Decoded JSON data in order to populate views",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "type": "course",
+        "image": "cs-image.png",
+        "name": "Rock, Paper, Scissors",
+        "stack": "C#",
+        "description": " - Rock, Paper, Scissors is a CLI game that allows users to play games, load and save progress, view statistics, and view a global leaderboard",
+        "link": ""
     }
 ]

@@ -23,3 +23,7 @@
 .projectCard .btn-custom:active {
     color: black;
 }
+
+.description {
+    white-space: pre-wrap;
+}
