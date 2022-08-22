@@ -3,7 +3,6 @@ import Project from './Project';
 
 export default function ProjectList(props) {
     const { projectType } = props
-    console.log(projectType)
     return (
         <div id='projectList' className='container-md'>
             {data.filter(project => project.type === projectType).map(project => {
