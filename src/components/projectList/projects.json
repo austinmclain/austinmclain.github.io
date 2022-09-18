@@ -5,7 +5,7 @@
         "image": "todo-images.png",
         "name": "To-Do",
         "stack": "React, C#, MySQL",
-        "description": " - To-Do is a full-stack web app that allows users to add, change, organize, and complete tasks on their to-do list\n - Used ASP.NET Core to create a web API for communication between MySQL server and React frontend\n - Implemented declarative routing for transitioning between the site’s two pages\n - Used Node.js for continuous integration\n - Wrote unit tests using Jest and the React Testing Library\n - This project was inspired by the Microsoft To Do task management app",
+        "description": " - To-Do is a full-stack web app that allows users to increase their daily productivity\n - Built a web API with C#/.NET to communicate with MySQL server\n - Implemented declarative routing for transitioning between pages\n - Used test-driven development with Jest and the React Testing Library\n - Utilized continuous integration with Node.js\n - Inspired by the Microsoft To Do task management app",
         "link": "https://github.com/austinmclain/To-Do"
     },
     {
